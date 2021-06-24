@@ -1,0 +1,15 @@
+.header {
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+
+}

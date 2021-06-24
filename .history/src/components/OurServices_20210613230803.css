@@ -1,0 +1,5 @@
+.our-services {
+    padding: 5rem 5rem;
+    height: 120vh;
+    background: url('${process.env.PUBLIC_URL}/bg-white-mainpage.png');
+}

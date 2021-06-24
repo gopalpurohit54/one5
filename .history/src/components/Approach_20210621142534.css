@@ -1,0 +1,49 @@
+.approach {
+    padding: 5rem 5rem;
+    height: 80vh;
+    background-image: url('./assets/about-black.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.approach h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.approach h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.approach p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.app-left{
+    float: left;
+    width: 50%;
+}
+
+.app-right{
+    float: right;
+    width: 40%;
+    align-content: flex-end;
+}
+
+li.app-items {
+    color: #fff;
+    font-size: 1rem;
+}

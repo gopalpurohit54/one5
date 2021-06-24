@@ -1,0 +1,23 @@
+import React from 'react';
+import './Softwaredev.css';
+
+function softwaredev() {
+    return (
+        <div className="softwaredev">
+            <div className="soft-desc">
+                <div className="soft-left">
+                    <h1>SOFTWARE DEVELOPMENT</h1>
+                    <p>We are a digital marketing agency based in Melbourne, Australia, working internationally.</p> <br/>
+                    <p>We believe that creating memorable experiences are the best way to connect with your consumers. </p> <br/>
+                    <p>From dynamic web designs to cutting-edge digital marketing strategies, we believe that the custom solutions we create today will transcend the trends of tomorrow.</p> <br/>
+                    <p>No matter your product or service, you have a story to tell.</p>
+                </div>
+            </div>
+            <div className="soft-right">
+                <img className="soft-vector" src= "./about-one5-circle-vector.png" alt= "Loading..." />
+            </div>
+        </div>
+    )
+}
+
+export default softwaredev

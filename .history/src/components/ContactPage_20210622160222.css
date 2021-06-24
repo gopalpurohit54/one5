@@ -1,0 +1,64 @@
+.contactpage {
+    padding: 5rem;
+    height: 100vh;
+    background-image: url('./assets/contact-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.contactpage h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #F04E31;
+}
+
+.contactpage h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.contactpage p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.con-left{
+    float: left;
+    width: 50%;
+}
+
+.con-right{
+    float: right;
+    width: 40%;
+}
+
+.con-wrapper {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.con-name {
+    display: flex;
+}
+
+.con-email {
+    display: flex;
+}
+
+.describe {
+    display: flex;
+}
+
+textarea#message{
+    width: 20rem;
+    height: 4rem;
+}

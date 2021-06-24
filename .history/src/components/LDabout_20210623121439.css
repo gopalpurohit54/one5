@@ -1,0 +1,32 @@
+.ldabout {
+    padding: 5rem;
+    height: 100vh;
+    background-image: url('./assets/logodesign-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.ldabout h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.ldabout h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.ldabout p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}

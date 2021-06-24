@@ -1,0 +1,113 @@
+.benefits {
+    padding: 5rem 5rem;
+    height: 100vh;
+    background-image: url('./assets/ecombg.png');
+    background-size: cover;
+}
+
+.benefits h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.benefits h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.benefit-wrapper {
+    display: flex;
+    flex: 1;
+    margin-top: 3.5rem;
+}
+
+.benefit-1 p {
+    font-size: 0.9rem;
+}
+
+.benefit-2 p {
+    font-size: 0.9rem;
+}
+
+.benefit-3 p {
+    font-size: 0.9rem;
+}
+
+.benefit-4 p {
+    font-size: 0.9rem;
+}
+
+.benefit-1, .benefit-2, .benefit-3, .benefit-4 {
+    background-image: url(./assets/Ellipse-bg.png);
+    background-size: cover;
+    height: 260px;
+    width: 260px;
+    margin: 1rem;    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bene-desc {
+    display: none;
+}
+
+h6.bene-hover {
+    color: #F04E31;
+}
+
+p.hover-desc {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.benefit-1:hover .bene-desc{
+    display: block;
+}
+
+.benefit-1:hover .bene-visible{
+    display: none;
+}
+
+.benefit-2:hover .bene-desc{
+    display: block;
+}
+
+.benefit-2:hover .bene-visible{
+    display: none;
+}
+
+.benefit-3:hover .bene-desc{
+    display: block;
+}
+
+.benefit-3:hover .bene-visible{
+    display: none;
+}
+
+.benefit-4:hover .bene-desc{
+    display: block;
+}
+
+.benefit-4:hover .bene-visible{
+    display: none;
+}
+

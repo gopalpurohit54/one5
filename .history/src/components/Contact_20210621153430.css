@@ -1,0 +1,45 @@
+.contact {
+    padding: 5rem 5rem;
+    height: 80vh;
+    background-image: url('./assets/about-red-contact.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.contact h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #fff;    
+    text-transform: uppercase;
+}
+
+.contact h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.contact-left{
+    float: left;
+    width: 50%;
+}
+
+.contact-right{
+    float: right;
+    width: 50%;
+    margin-top: -7rem;
+}
+

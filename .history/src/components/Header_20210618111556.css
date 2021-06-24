@@ -1,0 +1,26 @@
+.header {
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    font-size:1rem;
+}
+
+li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+li:hover {
+    color: #F04E31;
+    cursor: pointer;
+}

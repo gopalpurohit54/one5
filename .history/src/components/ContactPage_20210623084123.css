@@ -1,0 +1,89 @@
+.contactpage {
+    padding: 5rem;
+    height: 100vh;
+    background-image: url('./assets/contact-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.contactpage h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #F04E31;
+}
+
+.contactpage h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.contactpage p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.con-left{
+    float: left;
+    width: 50%;
+}
+
+.con-right{
+    float: right;
+    width: 40%;
+}
+
+.con-right form{
+    padding: 0;
+}
+
+.con-right form .form-row{
+    display: flex;
+    margin: 32px 0;
+}
+
+form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+
+form .form-row .textarea{
+    height: 70px;
+}
+
+.input-data input, .textarea textarea{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #BDBDBD;
+}
+
+.textarea textarea{
+    resize: none;
+    padding-top: 10px;
+}
+
+.input-data label{
+    position: absolute;
+    bottom: 40px;
+    font-size: 1rem;
+    pointer-events: none;
+}
+
+.textarea label{
+    width: 100%;
+    bottom: 30px;
+    background: #fff;
+}

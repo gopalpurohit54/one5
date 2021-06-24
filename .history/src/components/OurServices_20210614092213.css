@@ -1,0 +1,40 @@
+.our-services {
+    padding: 5rem 5rem;
+    height: 120vh;
+    background-image: url('/public/bg-white-mainpage.png');
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.btn{
+    margin-top: 1.2rem;
+}
+
+.service-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.service-1, .service-2, .service-3, .service-4 p {
+    font-size: 0.9rem;
+}
+

@@ -1,0 +1,53 @@
+.footer {
+    padding: 5rem 5rem;
+    background-color: #1c1c1c;
+    height: 40vh;
+    width: 100%;
+    color: white;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.call {
+    display: flex;
+}
+
+footer h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.service-wrapper {
+    display: flex;
+    flex: 1;
+    margin-top: 3.5rem;
+}
+
+.add-1 p {
+    font-size: 0.9rem;
+}
+
+.add-2 p {
+    font-size: 0.9rem;
+}
+
+.site-links p {
+    font-size: 0.9rem;
+}
+
+.follow-us p {
+    font-size: 0.9rem;
+}
+

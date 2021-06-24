@@ -1,0 +1,61 @@
+.industries {
+    padding: 5rem 5rem;
+    height: 100vh;
+    background:#fff;
+}
+
+.industries h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.industries h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #000;
+}
+
+.retail {
+    background-image: url('./assets/retail.png');
+}
+
+.health{
+    background-image: url('./assets/retail.png');
+}
+
+.manufacture{
+    background-image: url('./assets/retail.png');
+}
+
+.construction{
+    background-image: url('./assets/retail.png');
+}
+
+.realestate{
+    background-image: url('./assets/retail.png');
+}
+
+.financial{
+    background-image: url('./assets/retail.png');
+}
+
+.entertainment{
+    background-image: url('./assets/retail.png');
+}
+
+.publicservice{
+    background-image: url('./assets/retail.png');
+}

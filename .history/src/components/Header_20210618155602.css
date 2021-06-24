@@ -1,0 +1,39 @@
+.header {
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    height: 90px;
+}
+.header.active {
+    background: #1c1c1c;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    font-size:1.1rem;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a.nav-items:hover {
+    color: #F04E31;
+    cursor: pointer;
+}
+
+.nav-item-active {
+    color: #F04E31;
+}

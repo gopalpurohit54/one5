@@ -1,0 +1,9 @@
+:root {
+    --primary: #F04E31;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 30px;
+    
+}

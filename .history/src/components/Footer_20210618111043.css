@@ -1,0 +1,148 @@
+.footer {
+    padding: 5rem 5rem;
+    background-color: #1c1c1c;
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.footer h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.add-1 p {
+    font-size: 0.9rem;
+}
+
+.add-2 p {
+    font-size: 0.9rem;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.call:hover {
+    color: #F04E31;
+}
+
+.follow-us p {
+    font-size: 0.9rem;
+}
+
+i.fab.fa-instagram {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+i.fab.fa-instagram:hover {
+    color: #F04E31;
+}
+
+i.fab.fa-facebook-f {
+    padding: 0.5rem;
+}
+
+i.fab.fa-facebook-f:hover {
+    color: #F04E31;
+}
+
+
+i.fab.fa-twitter {
+    padding: 0.5rem;
+}
+
+i.fab.fa-twitter:hover {
+    color: #F04E31;
+}
+
+
+i.fab.fa-linkedin-in {
+    padding: 0.5rem;
+}
+
+i.fab.fa-linkedin-in:hover {
+    color: #F04E31;
+}
+
+img.call-icon {
+    padding-right: 1.2rem;
+}
+
+.copyright {
+    display: flex;
+}
+
+.copy-left {
+    width: 50%;
+    display: flex;
+}
+
+.copy-right {
+    width: 50%;
+}
+
+p.left-p1 {
+    margin-bottom: 0;
+    padding-right: 4rem;
+    line-height: 1;
+    padding-top: 4rem;
+}
+
+p.left-p1:hover {
+    color: #F04E31;
+}
+
+p.left-p2 {
+    margin-bottom: 0;
+    padding-right: 4rem;
+    line-height: 1;
+    padding-top: 4rem;
+}
+
+p.left-p2:hover {
+    color: #F04E31;
+}
+
+p.right-p {
+    margin-bottom: 0;
+    line-height: 1;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.p.right-p:hover {
+    color: #F04E31;
+}
+
+li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}

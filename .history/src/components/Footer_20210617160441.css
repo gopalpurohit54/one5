@@ -1,0 +1,99 @@
+.footer {
+    padding: 5rem 5rem;
+    background-color: #1c1c1c;
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.footer h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.add-1 p {
+    font-size: 0.9rem;
+}
+
+.add-2 p {
+    font-size: 0.9rem;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.follow-us p {
+    font-size: 0.9rem;
+}
+
+i.fab.fa-instagram, i.fab.fa-facebook-f, i.fab.fa-twitter, i.fab.fa-linkedin-in {
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+i.fab.fa-instagram, i.fab.fa-facebook-f, i.fab.fa-twitter, i.fab.fa-linkedin-in:hover {
+    color: #F04E31;
+}
+
+img.call-icon {
+    padding-right: 1.2rem;
+}
+
+.copyright {
+    display: flex;
+}
+
+.copy-left {
+    width: 50%;
+    display: flex;
+}
+
+.copy-right {
+    width: 50%;
+}
+
+p.left-p {
+    margin-bottom: 0;
+    padding-right: 4rem;
+    line-height: 1;
+    padding-top: 4rem;
+}
+
+p.right-p {
+    margin-bottom: 0;
+    line-height: 1;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,47 @@
+.project {
+    padding: 5rem 5rem;
+    height: 110vh;
+    background:#fff;
+}
+
+.project h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #F04E31;
+}
+
+.project h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.project p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #000;
+}
+
+ul.prorow1-items {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul.prorow2-items {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}

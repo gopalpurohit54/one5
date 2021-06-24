@@ -1,0 +1,15 @@
+img {
+    width: 630px;
+    height: 597px;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container {
+    background: #1c1c1c;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

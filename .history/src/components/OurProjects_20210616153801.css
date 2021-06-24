@@ -1,0 +1,86 @@
+.our-projects {
+    padding: 5rem 5rem;
+    height: 450vh;
+    background: #1c1c1c;
+}
+
+.our-projects h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.our-projects h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.our-projects p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.left-desc{
+    float: left;
+    width: 60%;
+}
+
+.right-desc{
+    float: right;
+    width: 40%;
+    align-items: baseline;
+    padding-top: 2.4rem;
+}
+
+.right-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-right: 0px;
+}
+
+.project-1 p {
+    font-size: 0.9rem;
+}
+
+.p1-desc, .p3-desc, .p5-desc {
+    float: left;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.p2-desc, .p4-desc, .p6-desc {
+    float: right;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-right: 4rem;
+}
+
+.p1-img, .p3-img, .p5-img {
+    float: right;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.p2-img, .p4-img, .p6-img {
+    float: left;
+    width: 50%;
+    margin-top: 2rem;
+}

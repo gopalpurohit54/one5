@@ -1,0 +1,44 @@
+.expertize {
+    padding: 5rem 5rem;
+    height: 80vh;
+    background-image: url('./assets/about-white.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.expertize h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.expertize h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.expertize p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.ab-left{
+    float: left;
+    width: 70%;
+}
+
+.ab-right{
+    float: right;
+    width: 30%;
+    margin-top: -7rem;
+}

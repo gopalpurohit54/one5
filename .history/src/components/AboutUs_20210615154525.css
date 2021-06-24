@@ -1,0 +1,46 @@
+.about-us {
+    padding: 10rem 5rem;
+    height: 89vh;
+    background-image: url('./assets/about-bg.png');
+    background-repeat: no-repeat;
+}
+
+.about-us h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.about-us h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.about-us p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.left-about{
+    float: left;
+    width: 70%;
+}
+
+.right-about{
+    float: right;
+    width: 30%;
+}
+
+.right-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-right: 0px;
+}

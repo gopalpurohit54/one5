@@ -1,0 +1,74 @@
+.solutions {
+    padding: 5rem 5rem;
+    height: 100vh;
+    background:#fff;
+}
+
+.solutions h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.solutions h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.solution-wrapper {
+    display: flex;
+    flex: 1;
+    margin-top: 3.5rem;
+}
+
+.solution-1 p {
+    font-size: 0.9rem;
+}
+
+.solution-2 p {
+    font-size: 0.9rem;
+}
+
+.solution-3 p {
+    font-size: 0.9rem;
+}
+
+.solution-4 p {
+    font-size: 0.9rem;
+}
+
+li.sol-items {
+    color: #000;
+    list-style: disc;
+    font-size: 1rem;
+}
+
+::marker  {
+    color: #F04E31;
+}
+
+ul.solution-1 {
+    margin-right: 2rem;
+}
+
+ul.solution-2 {
+    margin-right: 2rem;
+}
+
+ul.solution-3 {
+    margin-right: 2rem;
+}
+
+ul.solution-4 {
+    margin-right: 2rem;
+}

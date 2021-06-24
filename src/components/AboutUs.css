@@ -1,0 +1,54 @@
+.about-us {
+    padding: 5rem 5rem;
+    height: 70vh;
+    background-image: url('./assets/about-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.about-us h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.about-us h6 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.about-us p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.left-about{
+    float: left;
+    width: 80%;
+}
+
+.right-about{
+    float: right;
+    width: 20%;
+    margin-top: -7rem;
+}
+
+.right-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-right: 0px;
+}
+
+.about-btn btn--outline:hover {
+    background-color: #F04E31;
+    color: #fff;
+}

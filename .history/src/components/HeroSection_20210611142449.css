@@ -1,0 +1,28 @@
+.Section {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1c1c1c;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    padding: 3rem calc((100vw - 1300px) /2 );
+
+    @media screen and (max-width: 768px){
+        grid-grid-template-columns: 1fr;
+    }
+}
+
+.ColumnLeft {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem 2rem;
+}

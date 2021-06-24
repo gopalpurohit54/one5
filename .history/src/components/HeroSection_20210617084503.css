@@ -1,0 +1,48 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1c1c1c;
+}
+
+.hero-container {
+    height: 100vh;
+}
+
+.ColumnLeft {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem 2rem;
+}
+
+.ColumnLeft h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.ColumnLeft p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.ColumnLeft btn{
+    margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 768px){
+    .hero-section > h1 {
+        font-size: medium;
+    }
+    .hero-desc > p {
+        font-size: small;
+    }
+}
