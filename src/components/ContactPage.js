@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './ContactPage.css';
 import { Button } from './Button';
 
@@ -22,7 +22,7 @@ function ContactPage() {
     // });
 
     
-
+    const fileInputRef = useRef(null)
     const [button, setButton] = useState(true);
         
     const showButton = () => {
@@ -35,9 +35,14 @@ function ContactPage() {
     
     useEffect ( ( ) => {
         showButton();
+    window.addEventListener('resize', showButton);
     }, []);
 
-    window.addEventListener('resize', showButton);
+
+const fileUploadClick= () => {
+        console.log(fileInputRef.current,'/1qweqweq123123123123')
+        fileInputRef.current.click();
+    }
 
     return (
         <div className="contactpage">
@@ -94,8 +99,8 @@ function ContactPage() {
                         </div>
                     </div>
                     <div className="file-upload">
-                        <input type="file" id="real-file" multiple hidden="hidden" /> 
-                        <button className="file-upload__button" type="button" id="custom-button"><img src="./attach_file.png"/></button>
+                        <input type="file" id="real-file" ref={fileInputRef}  hidden="hidden" onChange={(e) => console.log(e,'/qweqwe')} /> 
+                        <button className="file-upload__button" type="button" id="custom-button" onClick={fileUploadClick}><img src="./attach_file.png"/></button>
                         <span className="file-upload__label" type="custom-text" id="custom-label">ATTACH A FILE (DOC, PDF, ZIP)</span>
                     </div>
                     <div className="form-row submit-btn">
